@@ -155,3 +155,22 @@
 #store .entry form, #store .entry form div {
 	display: inline;
 }
+
+.image_link {
+	border: 0;
+}
+
+/* Styles for the cart in the main page */
+
+#cart .cart_title {
+	font: 120% bold;
+}
+
+#cart .item_price, #store .total_line {
+	text-align: right;
+}
+
+#cart .total_line .total_cell {
+	font-weight: bold;
+	border-top: 1px solid $#595;
+}
