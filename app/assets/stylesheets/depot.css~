@@ -162,15 +162,30 @@
 
 /* Styles for the cart in the main page */
 
-#cart .cart_title {
-	font: 120% bold;
+#store .cart_title {
+	font: 120%;
+	font-weight: bold;
 }
 
-#cart .item_price, #store .total_line {
+#store .item_price, #store .total_line {
 	text-align: right;
 }
 
-#cart .total_line .total_cell {
+#store .total_line .total_cell {
 	font-weight: bold;
-	border-top: 1px solid $#595;
+	border-top: 1px solid #595;
 }
+
+/* Styles for the cart in the sidebar */
+  
+#cart, #cart table {
+  font-size: smaller;
+  color:     white;
+}
+ 
+#cart table {
+  border-top:    1px dotted #595;
+  border-bottom: 1px dotted #595;
+  margin-bottom: 10px;
+}
+
